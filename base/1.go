@@ -4,18 +4,18 @@ import (
 	"fmt"
 )
 
-func main()  {
+func main() {
 	//main1()
 	tt()
 }
 
-func tt()  {
-	a,b,c := 10,20,101
-	a,b = b,a//次方法类型必须一致
-	fmt.Println(a,b,c)
+func tt() {
+	a, b, c := 10, 20, 101
+	a, b = b, a //次方法类型必须一致
+	fmt.Println(a, b, c)
 }
 
-func main1()  {
+func main1() {
 	//fmt.Println(time.Now())
 	fmt.Println("hello go!")
 	fmt.Println(hee())
